@@ -65,7 +65,7 @@ body {
     font-weight: bolder;
     color: hsl(158, 36%, 37%);
 }
-    
+
 
 .card-item #last-price {
     font-size: 0.9rem;
@@ -98,6 +98,7 @@ footer {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    align-self: flex-end;
 
 }
 
@@ -129,14 +130,14 @@ footer {
         align-items: center;
         gap: 20px;
     }
-    
+
     .card-item #current-price {
         font-size: 3rem;
         font-weight: bolder;
         color: hsl(158, 36%, 37%);
     }
-        
-    
+
+
     .card-item #last-price {
         font-size: 1.2rem;
         color: grey;
